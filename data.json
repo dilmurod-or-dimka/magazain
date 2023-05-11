@@ -1,0 +1,202 @@
+[
+  {
+    "model": "pages.category",
+    "pk": 2,
+    "fields": {
+      "title": "Chairs",
+      "slug": "chairs"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 3,
+    "fields": {
+      "title": "Beds",
+      "slug": "beds"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 4,
+    "fields": {
+      "title": "Accesories",
+      "slug": "accesories"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 5,
+    "fields": {
+      "title": "Furniture",
+      "slug": "furniture"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 6,
+    "fields": {
+      "title": "Home Deco",
+      "slug": "home-deco"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 7,
+    "fields": {
+      "title": "Dressings",
+      "slug": "dressings"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 8,
+    "fields": {
+      "title": "Tables",
+      "slug": "tables"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 1,
+    "fields": {
+      "title": "Amado",
+      "slug": "amado"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 2,
+    "fields": {
+      "title": "Ikea",
+      "slug": "ikea"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 3,
+    "fields": {
+      "title": "Furniture Inc",
+      "slug": "furniture-inc"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 4,
+    "fields": {
+      "title": "The factory",
+      "slug": "the-factory"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 5,
+    "fields": {
+      "title": "Artdeco",
+      "slug": "artdeco"
+    }
+  },
+  {
+    "model": "pages.product",
+    "pk": 1,
+    "fields": {
+      "title": "Стул",
+      "descr": "Описание стула",
+      "price": 500,
+      "quantity": 40,
+      "is_available": true,
+      "category": 2,
+      "brand": 1,
+      "slug": "stul"
+    }
+  },
+  {
+    "model": "pages.product",
+    "pk": 2,
+    "fields": {
+      "title": "Импортный стул",
+      "descr": "Описание: Импортный стул",
+      "price": 180,
+      "quantity": 50,
+      "is_available": true,
+      "category": 2,
+      "brand": 3,
+      "slug": "importnyj-stul"
+    }
+  },
+  {
+    "model": "pages.product",
+    "pk": 3,
+    "fields": {
+      "title": "Технологичный стул",
+      "descr": "Описание: Технологичный стул",
+      "price": 200,
+      "quantity": 30,
+      "is_available": true,
+      "category": 2,
+      "brand": 5,
+      "slug": "tehnologichnyj-stul"
+    }
+  },
+  {
+    "model": "pages.product",
+    "pk": 4,
+    "fields": {
+      "title": "Table",
+      "descr": "Table table table table",
+      "price": 600,
+      "quantity": 84,
+      "is_available": false,
+      "category": 8,
+      "brand": 3,
+      "slug": "table"
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 1,
+    "fields": {
+      "photo": "products/category-1.jpg",
+      "product": 1
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 2,
+    "fields": {
+      "photo": "products/customer-2.png",
+      "product": 1
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 3,
+    "fields": {
+      "photo": "products/favicon.png",
+      "product": 2
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 4,
+    "fields": {
+      "photo": "products/customer-1.png",
+      "product": 2
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 5,
+    "fields": {
+      "photo": "products/product-3.jpg",
+      "product": 3
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 6,
+    "fields": {
+      "photo": "products/product-6.jpg",
+      "product": 3
+    }
+  }
+]
