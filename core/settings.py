@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'pages.apps.PagesConfig',
     "accounts.apps.AccountsConfig",
+    "cart.apps.CartConfig",
 ]
 
 AUTH_USER_MODEL = "accounts.CustomUser"

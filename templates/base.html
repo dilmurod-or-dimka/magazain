@@ -77,8 +77,8 @@
             <ul>
                 <li class="{% if request.path == '/' %}active{% endif %}"><a href="{% url 'home' %}">Home</a></li>
                 <li class="{% if 'shop' in request.path %}active{% endif %}"><a href="{% url 'shop' %}">Shop</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="{% url 'cart' %}">Cart</a></li>
+                <li><a href="{% url 'checkout' %}">Checkout</a></li>
             </ul>
         </nav>
         <!-- Button Group -->
